@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="__logo">
+                <i class="fas fa-cake-candles"></i>
+                BIRTHDAY
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="wish.html" class="navbar__links">WISH</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="dashboard.html" class="navbar__links">DASHBOARD</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="index.html" class="button">back</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Birthday Dashboard</h1>
+                <h2>Track memories, wishes, and favorite moments in one place.</h2>
+                <p>Welcome to your special birthday dashboard. Here you can view curated cards, quick links, and a personal message timeline that makes the page feel useful.</p>
+                <a href="index.html#gallery" class="button">Open Gallery</a>
+            </div>
+            <div class="main__image">
+                <img src="image/petot1.jpg" alt="Birthday dashboard illustration">
+            </div>
+        </div>
+    </main>
+
+    <section class="dashboard-cards">
+        <div class="dashboard-card">
+            <h3>Birthday Message</h3>
+            <p>Happy 18th! This year is your year—more joy, more memories, and more reasons to smile.</p>
+        </div>
+        <div class="dashboard-card">
+            <h3>Photo Highlights</h3>
+            <p>Open the gallery to relive your favorite moments and see the best snapshots from the celebration.</p>
+        </div>
+        <div class="dashboard-card">
+            <h3>Upcoming Plans</h3>
+            <p>Plan surprises, collect wishes, or add a note about the next adventure you want to share.</p>
+        </div>
+    </section>
+
+    <section class="dashboard-actions">
+        <h2>Quick Actions</h2>
+        <div class="action-grid">
+            <a href="wish.html" class="button">Send A Wish</a>
+            <a href="index.html#gallery" class="button">View Photos</a>
+            <a href="https://www.google.com" class="button">Explore Ideas</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
